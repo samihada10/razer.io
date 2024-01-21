@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&family=Quicksand:wght@300;400;500&family=Rajdhani:wght@300;400;500&family=Teko:wght@300;400;500&display=swap");
+
+@media (min-width: 1200px) {
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 480px) {
+}
+@media (min-width: 320px) {
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav_customized {
+  border-bottom: 1.5px solid rgb(6, 185, 6);
+  font-family: "Rajdhani", sans-serif;
+  width: 100%;
+  position: fixed;
+}
+.nav_text {
+  color: white;
+}
+.nav_text:hover {
+  color: rgb(6, 148, 6);
+  width: 100%;
+}
+.dropdown_text {
+  color: black;
+  background-color: white;
+}
+.dropdown_text:hover {
+  color: rgb(6, 148, 6);
+  background-color: black;
+}
+.gray_link {
+  padding: 7px;
+  text-align: center;
+  color: white;
+  background-color: rgb(96, 93, 93);
+  width: 100%;
+  height: 40px;
+  font-family: "Rajdhani", sans-serif;
+}
+.join_link {
+  color: white;
+  text-decoration: none;
+  font-family: "Rajdhani", sans-serif;
+}
+.join_link:hover {
+  text-decoration: underline;
+
+  font-family: "Rajdhani", sans-serif;
+}
+
+.block1 {
+  padding: 50px;
+  text-align: center;
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://assets2.razerzone.com/images/pnx.assets/19139469bcc62860c37806cc9355cdf1/holiday-gift-guide-2023-homepage-large-2x.webp);
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-position-y: center;
+  background-position-x: center;
+  border-bottom: 10px solid rgb(47, 46, 46);
+  float: left;
+}
+.firts_block_text {
+  color: white;
+  text-transform: uppercase;
+}
+.firts_block_link {
+  color: white;
+  text-decoration: none;
+}
+.firts_block_link:hover {
+  text-decoration: underline 1px;
+}
+.index {
+  color: rgb(4, 220, 4);
+}
+
+.block2 {
+  padding: 50px;
+  text-align: center;
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://assets2.razerzone.com/images/pnx.assets/19139469bcc62860c37806cc9355cdf1/razer-immersive-campaign-homepage-desktop2x.webp);
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-position-y: center;
+  background-position-x: center;
+  border-bottom: 10px solid rgb(47, 46, 46);
+  float: left;
+}
+.block3 {
+  padding: 50px;
+  text-align: center;
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://assets2.razerzone.com/images/pnx.assets/19139469bcc62860c37806cc9355cdf1/razer-blade16-lamborghini-homepage-desktop2x.webp);
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-position-y: center;
+  background-position-x: center;
+  border-bottom: 10px solid rgb(47, 46, 46);
+  float: left;
+}
+.block4 {
+  padding: 50px;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  height: 582px;
+  background-image: url(https://assets2.razerzone.com/images/pnx.assets/65d476e8aff78d448b6b3233350f1bb0/fujin-pro-b-950x580-desktop.webp);
+  float: left;
+  border-bottom: 10px solid rgb(47, 46, 46);
+  border-right: 10px solid rgb(47, 46, 46);
+  background-position-y: center;
+  background-position-x: center;
+}
+.block5 {
+  padding: 50px;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  height: 582px;
+  background-image: url(https://assets2.razerzone.com/images/pnx.assets/2fb5601db7a84213129e2f26d31f050f/mercury-blade16-blade18-b-950x580-desktop.webp);
+  float: left;
+  border-bottom: 10px solid rgb(47, 46, 46);
+  background-position-y: center;
+  background-position-x: center;
+}
+.block6 {
+  padding: 50px;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  height: 582px;
+  background-image: url(https://assets2.razerzone.com/images/pnx.assets/ab20c0e7b6887e4438c7bb329c59b288/razer-blade-14-2023-b-950x580-desktop.webp);
+  float: left;
+  border-bottom: 10px solid rgb(47, 46, 46);
+  border-right: 10px solid rgb(47, 46, 46);
+  background-position-y: center;
+  background-position-x: center;
+}
+.block7 {
+  padding: 50px;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+
+  height: 582px;
+  background-image: url(https://assets2.razerzone.com/images/pnx.assets/bbffede42365ea3ed65d0b13ab080c48/razer-hyperpolling-technology-b-950x580-desktop.webp);
+  float: left;
+  border-bottom: 10px solid rgb(47, 46, 46);
+  background-position-y: center;
+  background-position-x: center;
+}
+.block8 {
+  padding: 50px;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  height: 582px;
+  background-image: url(https://assets2.razerzone.com/images/pnx.assets/65d476e8aff78d448b6b3233350f1bb0/axon-ashoka-950x580-desktop.webp);
+  float: left;
+  border-bottom: 10px solid rgb(47, 46, 46);
+  border-right: 10px solid rgb(47, 46, 46);
+  background-position-y: center;
+  background-position-x: center;
+}
+.block9 {
+  padding: 50px;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  height: 582px;
+  background-image: url(https://assets2.razerzone.com/images/pnx.assets/65d476e8aff78d448b6b3233350f1bb0/ebonus-card-b-950x580-desktop.webp);
+  float: left;
+  border-bottom: 10px solid rgb(47, 46, 46);
+  background-position-y: center;
+  background-position-x: center;
+}
+.footer {
+  height: auto;
+  color: white;
+  background-color: rgb(14, 14, 14);
+  padding-left: 150px;
+  padding-top: 50px;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Rajdhani", sans-serif;
+}
+.list {
+  padding: 4px;
+  list-style: none;
+}
+.join_link1 {
+  color: rgb(163, 156, 156);
+  text-decoration: none;
+  font-family: "Rajdhani", sans-serif;
+}
+.join_link1:hover {
+  color: white;
+  text-decoration: underline;
+  font-family: "Rajdhani", sans-serif;
+}
+.ul {
+  padding-top: 20px;
+  float: left;
+  padding-left: 0px;
+}
+.ul1 {
+  padding-top: 20px;
+  float: left;
+  padding-left: 60px;
+}
+
+.h1 {
+  float: left;
+  margin-top: -250px;
+  margin-left: 60%;
+  color: rgb(6, 189, 6);
+}
+.div {
+  float: none;
+}
+.hr {
+  width: 90%;
+}
+.fp {
+  color: rgb(163, 156, 156);
+}
+.i2 {
+  color: white;
+}
+
+#icon {
+  position: static;
+  left: 79.8%;
+  padding-top: 10px;
+  padding-left: 4px;
+  font-size: 17px;
+  color: rgb(6, 189, 6);
+}
+
+#icon1 {
+  position: static;
+  left: 81%;
+  padding-top: 10px;
+  padding-left: 3px;
+  font-size: 17px;
+  color: rgb(6, 189, 6);
+}
+
+.form {
+  text-align: center;
+  background-color: black;
+  border-radius: 50px;
+}
+
+.search_line {
+  background-color: white;
+  border: green;
+  border-radius: 50px;
+  padding: 5px;
+}
+
+html {
+  padding: 0px;
+}
+
+body {
+  overflow-y: hidden;
+}
+
+html,
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
